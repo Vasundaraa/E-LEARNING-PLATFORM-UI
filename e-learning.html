@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eLearning Platform</title>
+  <link rel="stylesheet" href="e-learning.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#progress">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section id="courses">
+    <h2>Available Courses</h2>
+    <div class="course-list">
+      <!-- Course cards will go here -->
+    </div>
+  </section>
+
+  <section id="progress">
+    <h2>Your Progress</h2>
+    <div id="progress-tracker">
+      <!-- Progress tracker will go here -->
+    </div>
+  </section>
+
+  <section id="video-player">
+    <h2>Video Lesson</h2>
+    <div class="video-container">
+      <video id="video" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-progress">
+        <!-- Video progress bar will go here -->
+      </div>
+    </div>
+  </section>
+
+  <script src="e-learning.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Courses Section */
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .course-card h3 {
+    margin: 10px 0;
+  }
+  
+  .course-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Video Player Section */
+  .video-container {
+    text-align: center;
+  }
+  
+  .video-progress {
+    margin-top: 10px;
+    height: 5px;
+    background-color: #ddd;
+  }
+  
+  .video-progress .filled {
+    width: 50%;
+    background-color: #4caf50;
+    height: 100%;
+  }
+  
+  /* Progress Tracker */
+  #progress-tracker {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    margin: 10px 0;
+  }
+  
+  .progress-bar .filled {
+    width: 60%;
+    height: 100%;
+    background-color: #4caf50;
+  }
+  
